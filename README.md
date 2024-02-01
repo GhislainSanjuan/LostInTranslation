@@ -2,4 +2,6 @@
 
 ![1](https://github.com/GhislainSanjuan/LostInTranslation/blob/main/docs/1.png?raw=true)
 ![2](https://github.com/GhislainSanjuan/LostInTranslation/blob/main/docs/2.png?raw=true)
+![3](https://github.com/GhislainSanjuan/LostInTranslation/blob/main/docs/Lostintranslation.pdf?raw=true)
+
 
