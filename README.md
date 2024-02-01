@@ -1,5 +1,13 @@
 # Lost in translation : How to break the language barrier in Appsheet
-First of all if you want to copy the application  : [Lost in translation]([https://pages.github.com/](https://www.appsheet.com//templates/How-to-break-the-language-barrier-in-Appsheet?appGuidString=b1a21096-36d5-44c1-9350-640b34b95a28)).
+
+----
+First of all 
+- if you want to copy the application  : [Lost in translation](https://www.appsheet.com//templates/How-to-break-the-language-barrier-in-Appsheet?appGuidString=b1a21096-36d5-44c1-9350-640b34b95a28).
+- If you want the explanation in Google Slides : [Slides Lost in translation](https://docs.google.com/presentation/d/1fBpucLWDtZVLkxB4z7XZk9h5-3jAmRlEvEZ-TgAYWF8/edit#slide=id.g2aadba26b00_0_32).
+
+
+The context
+----
 
 When you work with several teams across the globe, language barrier can be a problem. 
 
@@ -119,6 +127,14 @@ Finally adjust the views to display the right content
 |------|---|
 |The user selects a language through USER SETTINGS table| ![6](https://github.com/GhislainSanjuan/LostInTranslation/blob/main/docs/6.png?raw=true) |
 |The user selects a Safety card :  if there is already a translation, the content and container is displayed with its translation ; if not the use can hit the button translation. After a bit of time the content will appear translated | ![7](https://github.com/GhislainSanjuan/LostInTranslation/blob/main/docs/7.png?raw=true) |
+
+
+## Application behaviour you can change
+
+In the template application, some behaviours have been defined in a certain way, but you can change them : 
+- When a safety card is update, all the previous translation are deleted to be generated again by users
+- When a safety card is created, the translations could be created automatically
+- When a language is added, the fields display name translations are added
 
 
 
