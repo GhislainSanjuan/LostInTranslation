@@ -11,11 +11,6 @@ But teams in other countries want to be able to display the fields and its conte
 
 So how to do this ? 
 ----
-First of all 
-- if you want to copy the application  : [Lost in translation](https://www.appsheet.com//templates/How-to-break-the-language-barrier-in-Appsheet?appGuidString=b1a21096-36d5-44c1-9350-640b34b95a28).
-- If you want the explanation in Google Slides : [Slides Lost in translation](https://docs.google.com/presentation/d/1fBpucLWDtZVLkxB4z7XZk9h5-3jAmRlEvEZ-TgAYWF8/edit#slide=id.g2aadba26b00_0_32).
-
-
 
 
 
