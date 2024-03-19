@@ -29,6 +29,21 @@ So how to do this ?
 
 Let’s see how to create the solution N°2 with the following links : 
 - if you want to copy the application  : [Lost in translation](https://www.appsheet.com//templates/How-to-break-the-language-barrier-in-Appsheet?appGuidString=b1a21096-36d5-44c1-9350-640b34b95a28).
+  > Don't forget the Apps Script code :
+  ```javascript
+  function setTranslationForEntriesToTranslate() {
+  let SP_TRANSLATIONS=SpreadsheetApp.openById("18hdWPb1Z5yP0UqUzv3cPEu6e0g4glI3r9678YyUy9Hs").getSheetByName("TRANSLATIONS")
+  let translationDATA=SP_TRANSLATIONS.getDataRange().getValues()
+  let entriesToTranslate = translationDATA.filter(x=>x[7]==true)
+  entriesToTranslate.forEach(function (x) {
+    let content = x[2] == "null" || x[2]=="" ? x[4] : x[5]
+    let translationEntry = LanguageApp.translate(content, "", x[3])
+    Logger.log(translationDATA.map(t=>t[1]).indexOf(x[1])+2)
+    SP_TRANSLATIONS.getRange(translationDATA.map(t=>t[1]).indexOf(x[1])+1,7,1,2).setValues([[translationEntry,false]])
+    Utilities.sleep(10)
+    })
+   }
+  ```
 - If you want the explanations in Google Slides : [Slides Lost in translation](https://docs.google.com/presentation/d/1fBpucLWDtZVLkxB4z7XZk9h5-3jAmRlEvEZ-TgAYWF8/edit#slide=id.g2aadba26b00_0_32).
 
 
